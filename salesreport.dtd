@@ -1,0 +1,22 @@
+<!ELEMENT salesreport (info)+>
+
+<!ELEMENT info (Order, CustID, AgentID, Date, Status, Item, Quantity, Price, Total)>
+
+<!ELEMENT Order (#PCDATA)>
+
+<!ELEMENT CustID (#PCDATA)>
+
+<!ELEMENT AgentID (#PCDATA)>
+
+<!ELEMENT Date (#PCDATA)>
+
+<!ELEMENT Status (#PCDATA)>
+
+<!ELEMENT Item (voice, fax?)>
+
+<!ELEMENT Quantity (#PCDATA)>
+
+<!ELEMENT Price (#PCDATA)>
+
+<!ELEMENT Total (#PCDATA)>
+
